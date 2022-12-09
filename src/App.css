@@ -1,6 +1,6 @@
 .app-title-container {
   background-color: white;
-  width: 60%;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -35,18 +35,61 @@
   background-color: white;
   display: flex;
   justify-content: space-evenly;
+  width: 400px;
   margin-top: 80px;
-  width: 50%;
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
 }
 .emoji-item{
-  font-size: 50px;
+  font-size: 40px;
   margin: 10px;
   cursor: pointer;
 }
 .emoji-item:hover{
   transform: scale(1.4);
+}
+.emoji-editor-container{
+  display: flex;
+  justify-content: space-around;
+}
+.colors-container{
+  background-color: white;
 
+}
+.colors-container{
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+  padding: 10px;
+  border-radius: 30px;
+}
+.color-item{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 60px;
+  height: 40px;
+}
+.color-item:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.bg-red{
+  background-color: red;
+}
+.bg-green{
+  background-color: green;
+}
+.bg-blue{
+  background-color: blue;
+}
+.bg-yellow{
+  background-color: yellow;
+}
+.bg-purple{
+  background-color: purple;
+}
+.bg-black{
+  background-color: black;
 }
